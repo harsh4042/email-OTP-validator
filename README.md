@@ -38,3 +38,12 @@ E-mail OTP Validator is a simple web application that allows users to generate a
   ```bash
   git clone https://github.com/your-username/email-otp-validator.git
 
+Usage
+
+    Open index.html in a web browser.
+    Enter your email address in the provided input field.
+    Click on the "Send OTP" button.
+    Check your email inbox for the OTP.
+    Enter the received OTP in the input field provided.
+    Click on the "Verify" button to validate the OTP.
+
