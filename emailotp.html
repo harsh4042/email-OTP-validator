@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>E-mail OTP Validator using JS</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        .form h1 {
+            margin-bottom: 20px;
+        }
+
+        input[type="email"],
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #555;
+            color: #fff;
+        }
+
+        .btn {
+            background-color: #666;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #888;
+        }
+
+        .otpverify {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div class="form">
+        <h1>E-mail OTP Validator using JS</h1>
+        <input type="email" id="email" placeholder="Enter Email...">
+        <div class="otpverify">
+            <input type="text" id="otp_inp" placeholder="Enter the OTP sent to your Email...">
+            <button class="btn" id="otp-btn">Verify</button>
+        </div>
+        <button class="btn" onclick="sendOTP()">Send OTP</button>
+    </div>
+    <footer>
+        <p>contact: <a href="mailto:bagulharshal456@gmail.com">bagulharshal456@gmail.com</a></p>
+    </footer>
+    <script src="emailotp.js"></script>
+</body>
+</html>
