@@ -47,3 +47,21 @@ Usage
     Enter the received OTP in the input field provided.
     Click on the "Verify" button to validate the OTP.
 
+
+Contributing
+
+Contributions are welcome! Here's how you can contribute to this project:
+
+    Fork the repository.
+    Create your feature branch (git checkout -b feature/your-feature).
+    Commit your changes (git commit -am 'Add some feature').
+    Push to the branch (git push origin feature/your-feature).
+    Create a new Pull Request.
+
+
+Author
+
+Made by Harsh Bagul
+
+  GitHub: harshbagul456
+  Email: bagulharshal456@gmail.com
