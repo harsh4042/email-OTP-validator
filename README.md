@@ -13,10 +13,7 @@ E-mail OTP Validator using JavaScript
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
 
 ---
 
