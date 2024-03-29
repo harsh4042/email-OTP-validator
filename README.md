@@ -1,7 +1,8 @@
 # email-OTP-validator
 # E-mail OTP Validator using JavaScript
 
-![Project Image](project_image.png)
+![image](https://github.com/harsh4042/email-OTP-validator/assets/106963882/75f692e6-b1a2-4072-844d-1802b2de13bd)
+
 
 > Validate OTP sent to email using JavaScript.
 
